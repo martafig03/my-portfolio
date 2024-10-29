@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 15px 20px;
+
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+#bar {
+    position: relative;
+    justify-content: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    color: #000099;
+    z-index: 12;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    padding-left: 80px;
+    margin-bottom: 20px;
+
+}
+
+
+.me {
+    height: auto;
+    width: 450px;
+    float: right;
+    margin-right: 10px;
+    max-width: 100%;
+    position: absolute;
+    right: 20px;
+    z-index: 10;
+    margin-top: 75px;
+
+}
+
+.portfolio {
+    margin-left: 420px;
+    font-size: 70px;
+
+}
+
+.navbar-links {
+    display: inline;
+}
+
+#navbar a {
+    color: #000099;
+    text-decoration: none;
+}
+
+.navbar-links a {
+    margin-left: 30px;
+}
+
+#navbar .name-link {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#statment {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: bold;
+
+    margin: 20px 30px;
+}
+
+
+.KnowMore {
+    max-width: 50%;
+    margin-left: 80px;
+    margin-top: 180px;
+    height: auto;
+    width: 450px;
+    float: left;
+    max-width: 100%;
+    position: absolute;
+    left: 20px;
+    z-index: 10;
+    margin-top: 900px;
+}
+
+.aboutme {
+    position: relative;
+    justify-content: right;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 80px;
+    font-style: normal;
+    color: #000099;
+    z-index: 12;
+    margin-top: 450px;
+    margin-right: 300px;
+    padding-left: 80px;
+   
+    margin-left: 60px;
+
+}
+
+/* Style the container to align the button on the right */
+.button-container {
+    text-align: right;
+    /* Aligns content to the right */
+    margin-top: 20px;
+    /* Adjust margin as needed */
+    padding-right: 20px;
+    margin-right: 380px;
+}
+
+/* Style the button */
+.button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000099;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+}
+
+.button-container button:hover {
+    background-color: #000099;
+    /* Darker green on hover */
+}
+
+
+
+section {
+    margin: 20px 30px;
+}
+
+section h2 {
+    margin: 90px;
+    margin-top: 200px;
+    color: #000099
+}
+
+#projects-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 150px;
+}
+
+.card {
+    padding: 20px;
+    width: 250px;
+    display: inline-block;
+    margin: 40px;
+    color: #000099;
+    font-size: 20px;
+
+}
+
+
+.card img {
+    max-width: 120%;
+}
+
+.card p {
+    margin-bottom: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.MyProjects {
+    font-size: 75px;
+    font-style: bold;
+}
+
+body>*:not(footer) {
+    flex: 1;
+}
+
+
+.footer {
+    background-color: #000099;
+    color: bisque;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: bisque;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

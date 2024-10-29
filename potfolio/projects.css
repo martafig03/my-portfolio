@@ -1,0 +1,227 @@
+#Title {
+    color: #000099;
+}
+
+.logo { 
+    text-align: center;
+    padding: 40px 545px;
+    margin-top: 20px;
+    
+   
+}
+
+.text {
+    color: bisque;
+    margin: 30px;
+    text-align: justify;
+    margin-top: 5px;
+
+}
+
+.back {
+    color: bisque;
+    margin-left: 30px;
+    margin-top: 30px;
+  
+}
+
+.environment {
+   text-align: center;
+   color: bisque;
+}
+
+.TitleAbout {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400px;
+    font-size: 70px;
+    font-style: normal;
+    color: #000099;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+    
+}
+
+.back2 {
+    color: #000099;
+    margin-left: 2px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.textabout {
+    position: relative;
+    justify-content: right;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: #000099;
+    z-index: 12;
+   margin-left: 30px;
+   margin-right: 40px;
+   line-height: 1.5;
+}
+
+.joialogo {
+    max-width: 25%;
+    margin-left: 550px;
+    margin-bottom: 40px;
+}
+
+.back3 {
+    color:bisque;
+    margin-left: 2px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* images auto scroll */
+
+.scroller-wrapper {
+    /* How long one slide is visible on screen (from entering screen to leaving it) */
+    --scrolling-gallery-item-duration: 12s;
+    /* How many items we want to see on screen at once */
+    --scrolling-gallery-items-visible: 8;
+    /* How many items are to scroll */
+    --scrolling-gallery-items-total: 10;
+    overflow-x: hidden;
+    will-change: transform;
+    display: flex;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.scroller {
+    animation-duration: calc(var(--scrolling-gallery-item-duration, 1s) / var(--scrolling-gallery-items-visible) * var(--scrolling-gallery-items-total));
+    animation-timing-function: linear;
+    animation-name: scrolling-gallery;
+    animation-iteration-count: infinite;
+    display: flex;
+    white-space: nowrap;
+    gap: 30px;
+}
+
+.scroller-container {
+    
+    width: 100vw;
+}
+
+.scroller-item {
+    flex: 1 0 calc(100% / var(--scrolling-gallery-items-visible));
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.scroller img {
+    display: block;
+    height: 220px; /* sizes of the images */
+    object-fit: cover;
+    object-position: center;
+    width: 150px; /* sizes of the images */
+    transition: transform 0.3s ease;
+}
+
+@keyframes scrolling-gallery {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / var(--scrolling-gallery-items-visible) * var(--scrolling-gallery-items-total)));
+    }
+}
+
+.scroller-wrapper {
+    --scrolling-gallery-item-duration: 12s;
+    --scrolling-gallery-items-visible: 8;
+    --scrolling-gallery-items-total: 10;
+    overflow-x: hidden;
+    will-change: transform;
+    display: flex;
+    white-space: nowrap;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.scroller {
+    animation-duration: calc(var(--scrolling-gallery-item-duration) * var(--scrolling-gallery-items-total) / var(--scrolling-gallery-items-visible));
+    animation-timing-function: linear;
+    animation-name: scrolling-gallery;
+    animation-iteration-count: infinite;
+    display: flex;
+    white-space: nowrap;
+    gap: 30px;
+}
+
+.scroller-container {
+    width: 100vw;
+}
+
+.scroller-item {
+    flex: 1 0 calc(100% / var(--scrolling-gallery-items-visible));
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.scroller img {
+    display: block;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+
+.competencesfoto {
+  max-width: 40%;
+  text-align: center;
+}
+
+body>*:not(footer) {
+    flex: 1;
+}
+
+.twocolumntext {
+    
+        column-count: 2;
+        column-gap: 40px; /* Adjust gap between columns as needed */
+        color:bisque;
+        font-family: "Roboto", sans-serif;
+        margin: 40px;
+        text-align: justify;
+        font-size: 20px;
+   
+    
+} 
+
+.TitlePhoto {
+
+font-family: "Roboto", sans-serif;
+font-weight: 200px;
+font-size: 40px;
+font-style: normal;
+color: #000099;
+margin-left: 35px;
+text-align: center;
+margin-top: 40px;
+
+
+}
+
+.fotosstation {
+    text-align: center;
+    margin-left: 250px;
+    
+}
+
+.fotosshirt {
+
+max-width: 70%;
+margin-left: 245px;
+margin-top: 40px;
+}
